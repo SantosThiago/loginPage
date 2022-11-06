@@ -8,12 +8,12 @@ submit.addEventListener("click", (event) => {
 
   if (!email.value)
     email.style.border='2px solid red'
+    
+  else if (email.value)
+    email.style.border= 'None'
   
   if (!pass.value)
     pass.style.border='2px solid red'
-
-  else if (email.value)
-    email.style.border= 'None'
 
   else if (pass.value)
     pass.style.border= 'None'
