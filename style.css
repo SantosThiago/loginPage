@@ -1,0 +1,163 @@
+body
+{
+    background-color: gray;
+}
+
+#power_img
+{
+    position: absolute;
+    left: 80px;
+    height:  1000px;
+    width: 1000px;
+    opacity: 0.3;
+}
+
+#login
+{
+    position: absolute;
+    top: 300px;
+    right: 400px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(32, 32, 32);
+    color: #DA70D6;
+}
+
+#login_title
+{
+    position: absolute;
+    top: 180px;
+    right: 430px;
+    font-size: 40px;
+}
+
+#input_email
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 20px;
+    width: 270px;
+    background-color: #575657;
+    border: none;
+    color: white;
+}
+
+#input_pass
+{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 20px;
+    width: 270px;
+    background-color: #575657;
+    border: none;
+    color:white;
+}
+
+#emailError
+{
+    display: none;
+    font-size: 0.8em;
+  
+}
+
+#passError
+{
+    display: none;
+    font-size: 0.8em;  
+}
+
+.invalid
+{
+    border: 5px solid red;
+}
+
+#remember_me
+{
+    position: absolute;
+    margin-left: 7px;
+    height: 50px;
+    bottom: 170px;
+}
+
+#forgot_pass
+{
+    position: absolute;
+    bottom: 170px;
+    margin-left: 12px;
+    color: #DA70D6;
+    text-decoration: none;
+}
+
+#forgot_pass:hover
+{
+    position: absolute;
+    bottom: 170px;
+    margin-left: 12px;
+    color: #575657;
+}
+
+.enter
+{
+    position: absolute;
+    margin-left: 70px;
+    bottom: 100px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+.enter_press
+{
+    background-color: #575657;
+    outline: none;
+    color: white;
+}
+
+.enter_press:hover 
+{
+    background-color: #DA70D6;
+    color: black;
+}
+
+
+#no_account
+{
+    position: absolute;
+    margin-left: 40px;
+    bottom: 75px;
+}
+
+#register
+{
+    color: #DA70D6;
+    text-decoration: none;
+}
+
+#register:hover
+{
+    color: #575657;
+}
+
+#git_img
+{
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    right: 70px;
+    bottom: 15px;
+}
+
+#login_txt
+{
+    position: absolute;
+    bottom: 30px;
+    margin-left: 80px;
+    font-size: 15px;
+}
